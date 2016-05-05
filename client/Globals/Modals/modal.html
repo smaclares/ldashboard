@@ -1,0 +1,51 @@
+<template name="Modal">
+ <div id="main-modal" class="modal fade" tabindex="-1" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      </div>
+        <div class="modal-body">
+          {{>Template.dynamic template=modalTemplate}}
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+
+<template name="LogIn">
+    <header>
+      <h4>Log In</h4>
+    </header>
+    <section>
+    <div id="log-in-form">
+      <form>
+        <div class="form-group">
+          <img id="account-icon" src="https://www.nino925.com/skin/frontend/default/grayscale/images/account.jpg">
+          <label>Username:</label>
+          <br>
+          <input type="text">
+        </div>
+        <div class="form-group">
+          <img id="lock-icon" src="https://cdn1.iconfinder.com/data/icons/hawcons/32/698630-icon-114-lock-128.png">
+          <label>Password:</label>
+          <br>
+          <input type="password">
+        </div>
+      </form>
+      <hr>
+      <button class="btn btn-primary btn-lg">Sign In</button>
+    </div>
+    </section>
+</template>
+
+<template name="Register">
+  <header>
+    <h4>Register</h4>
+  </header>
+  <hr>
+  <section>
+    <form>
+    </form>
+  </section>
+</template>

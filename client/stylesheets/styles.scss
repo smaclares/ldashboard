@@ -1,0 +1,92 @@
+body {
+  background-color: #e0ebeb;
+}
+
+.home {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px #888888;
+  height: 350px;
+  margin-left: 30%;
+  position: relative;
+  top: 50%;
+  transform: translateY(70%);
+  width: 500px;
+
+  #home-menu-icon {
+    position: absolute;
+    right: 5%;
+    top: 5%;
+    width: 50px;
+  }
+
+  header {
+    background-color: #2980b9;
+    color: white;
+    height: 200px;
+
+    h3 {
+      padding: 80px;
+    }
+  }
+
+  .icon {
+    background-color: #2980b9;
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px #001f4d;
+    padding: 15px;
+    position: absolute;
+    left: 10%;
+    top:  45%;
+  }
+
+  #book-icon {
+    width: 50px;
+  }
+
+  .btn {
+    color: white;
+    font-size: 20px;
+    margin-top: 10%;
+    padding: 10px;
+  }
+
+  #log-in {
+    background-color: #2980b9;
+  }
+
+  #log-in:hover {
+    background-color: #3498db;
+  }
+
+  #register {
+    background-color: #27ae60;
+  }
+
+  #register:hover {
+    background-color: #2ecc71;
+  }
+
+}
+
+#log-in-form {
+
+  border: solid #e0ebeb 1px;
+  border-radius: 10px;
+  padding: 20px;
+
+  #account-icon {
+    opacity: 0.5;
+    width: 20px;
+  }
+
+  #lock-icon {
+    opacity: 0.7;
+    width: 25px;
+  }
+
+  input {
+    width: 300px;
+  }
+
+}
